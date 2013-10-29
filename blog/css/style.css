@@ -1,0 +1,96 @@
+/*
+	Name: Dream Beans Caffee
+	Date: October 2013
+	Description: SINY - Product and Design. LAB 0
+	Author: Natalia Suarez
+	Autor URI: http://www.nattienatz.com
+*/
+
+/***** Global *****/
+/* Body */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+#wrapper {  width:960px; margin:0 auto; }
+
+hr {
+	border:0;
+	border-bottom:1px solid #000;
+}
+
+/* Headings */
+h1 { font-family: 'Oswald', sans-serif; font-weight:700; font-size: 62px; text-transform: uppercase; color:#230b03; float:left; margin-bottom:10px; }
+h2 { font-family: 'Oswald', sans-serif; font-size:24px; font-weight: 700; text-transform: uppercase; margin-bottom: 10px; }
+h3 { font-size:12px; font-weight: bold; margin-bottom: 10px;}
+
+/* Header */
+/* Nav */
+
+header nav {
+		font-size: 15px;
+	}
+
+	header nav ul {list-style: none; }
+	header nav ul li {float: right; margin-right: 20px; font-weight: bold; margin-top:45px; }
+	
+	header  nav a:link, header nav a:visited {
+		color: #000;
+		text-decoration: none;
+	}
+
+	header  nav a:hover, header nav a:active,
+	header  nav .active a:link, header nav .active a:visited {
+		color: #666;
+	}
+
+	/* Aside */
+
+	aside {
+		width:200px;
+		float:left;
+		margin-right:70px;
+		margin-top:20px;
+	}
+
+		aside ul {
+			font-weight:bold;
+			font-size: 14px;
+		}
+
+		aside ul li {
+			line-height: 18px;
+			margin-bottom:15px;
+		}
+
+/* Section */
+
+section {
+	float:left;
+	width:650px;
+	margin-top:20px;
+}
+
+	section article {
+		margin-bottom:20px;
+
+	}
+
+	section article p {
+		font-size:14px;
+		line-height: 21px;
+	}
+
+/* Footer */
+
+footer {
+	font-size:12px;
+	font-weight: bold;
+
+}
