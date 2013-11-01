@@ -1,10 +1,22 @@
 /*
-	Name: Dream Beans Caffee
+	Name: Blog
 	Date: October 2013
 	Description: SINY - Product and Design. LAB 0
 	Author: Natalia Suarez
-	Autor URI: http://www.nattienatz.com
+	http://www.nattienatz.com
 */
+
+@font-face {
+    font-family: 'league_gothicCnRg';
+    src: url('../type/leaguegothic-condensedregular.eot');
+    src: url('../type/leaguegothic-condensedregular.eot?#iefix') format('embedded-opentype'),
+         url('../type/leaguegothic-condensedregular.woff') format('woff'),
+         url('../type/leaguegothic-condensedregular.ttf') format('truetype'),
+         url('../type/leaguegothic-condensedregular.svg#league_gothicCnRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /***** Global *****/
 /* Body */
@@ -21,12 +33,13 @@ body {
 #wrapper {  width:960px; margin:0 auto; }
 
 hr {
+	margin:0;
 	border:0;
 	border-bottom:1px solid #000;
 }
 
 /* Headings */
-h1 { font-family: 'Oswald', sans-serif; font-weight:700; font-size: 62px; text-transform: uppercase; color:#230b03; float:left; margin-bottom:10px; }
+h1 { font-family: 'league_gothicCnRg'; font-size: 94px; text-transform: uppercase; color:#230b03; float:left; }
 h2 { font-family: 'Oswald', sans-serif; font-size:24px; font-weight: 700; text-transform: uppercase; margin-bottom: 10px; }
 h3 { font-size:12px; font-weight: bold; margin-bottom: 10px;}
 
@@ -38,7 +51,7 @@ header nav {
 	}
 
 	header nav ul {list-style: none; }
-	header nav ul li {float: right; margin-right: 20px; font-weight: bold; margin-top:45px; }
+	header nav ul li {float: right; margin-right: 20px; font-weight: bold; margin-top:60px; }
 	
 	header  nav a:link, header nav a:visited {
 		color: #000;
