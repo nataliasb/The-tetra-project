@@ -1,0 +1,66 @@
+.texture-bckg {
+background-image: url("../images/ricepaper_v3.png");
+}
+
+.nav-bckg {
+	background-color:#d5d5d5;
+	border: none;
+}
+
+.navbar-inverse .navbar-nav > .nav-bckg-active > a,
+.navbar-inverse .navbar-nav > .nav-bckg-active > a:hover,
+.navbar-inverse .navbar-nav > .nav-bckg-active > a:focus {
+  color: #fff;
+  background-color:#26b896;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #26b896;
+} 
+
+ .btn-selection {
+  color: #ffffff;
+  background-color: #26b896;
+}
+
+.btn-selection:hover,
+.btn-selection:focus,
+.btn-selection:active,
+.btn-selection.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #26b896;
+  border-color: #07795e;
+}
+
+.btn-selection:active,
+.btn-selection.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+
+.navbar-toggle {
+	border:none;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #26b896;
+}
+
+.navbar-collapse {
+	border-top:none;
+}
+
+a {
+  color: #07795e;
+}
+
+a:hover,
+a:focus {
+  color: #26b896;
+}
+/* */
