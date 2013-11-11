@@ -3,7 +3,7 @@ background-image: url("../images/ricepaper_v3.png");
 }
 
 .nav-bckg {
-	background-color:#d5d5d5;
+	background-color:#333;
 	border: none;
 }
 
@@ -63,4 +63,22 @@ a:hover,
 a:focus {
   color: #26b896;
 }
+
+
 /* */
+/*.logo-pst {
+  position: fixed;
+  width:100%; 
+  z-index:1031; 
+  text-align: center;
+}
+*/
+
+.logo-home {
+  position:fixed;
+  top:0;
+  right:20%;
+  margin:0 auto; 
+  padding:0;
+  z-index:9999;
+}
