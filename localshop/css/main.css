@@ -64,15 +64,10 @@ a:focus {
   color: #26b896;
 }
 
-
-/* */
-/*.logo-pst {
-  position: fixed;
-  width:100%; 
-  z-index:1031; 
-  text-align: center;
+h2 {
+  font-family: Georgia, Serif;
+  color: #26b896;
 }
-*/
 
 .logo-home {
   position:fixed;
@@ -81,4 +76,16 @@ a:focus {
   margin:0 auto; 
   padding:0;
   z-index:9999;
+}
+
+.logo-mobile { display:none; }
+
+@media (max-width: 480px) {
+  .logo-home {
+    display:none;
+  }
+  .logo-mobile {
+    margin:8px;
+    display: block;
+  }
 }
