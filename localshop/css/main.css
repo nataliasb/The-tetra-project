@@ -69,6 +69,25 @@ h2 {
   color: #26b896;
 }
 
+.btn-default {
+  font-family: 'Oswald', sans-serif;
+  font-weight:400;
+  text-transform:uppercase;
+  color: #fff;
+  background-color: #07795e;
+  border-color: #02513e;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #fff;
+  background-color: #26b896;
+  border-color: #07795e;
+}
+
 .logo-home {
   position:fixed;
   top:0;
