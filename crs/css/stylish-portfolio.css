@@ -19,6 +19,10 @@ body {
   font-weight: 700;
 }
 
+.vert-text h3 {
+  color:#fff;
+}
+
 /* Side Menu */
 
 #sidebar-wrapper {
