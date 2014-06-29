@@ -5,9 +5,21 @@
     <script src="components/platform/platform.js"></script>
     <!-- 2. Load the component using an HTML Import -->
     <link rel="import" href="my-element.html">
+
+    <link rel="import" href="components/core-drawer-panel/core-drawer-panel.html">
+
   </head>
-  <body>
+  <body unresolved touch-action="auto">
     <!-- 3. Declare the element by its tag. -->
-    <my-element></my-element>
+
+	<core-drawer-panel>
+  	<div drawer> Drawer panel... </div>
+
+ 	<div main>
+ 		    <my-element></my-element>
+ 	</div>
+
+	</core-drawer-panel>
+
   </body>
 </html>
