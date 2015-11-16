@@ -1,0 +1,44 @@
+body {
+  padding-top: 20px;
+  font-family: Courier ;
+  color: #7D7D7D;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+  font-size: 0.8em;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+
+.jumbotron h1 {
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.jumbotron p {
+  font-size: 1em;
+}
+
+.row img {
+  margin-bottom: 30px;
+}
+/* Customize the nav-justified links to be fill the entire space of the .navbar */
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
